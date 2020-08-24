@@ -236,6 +236,7 @@
     .header-block-title {
         padding: 10px 0;
         font-size: 40px;
+        border: none;
     }
 
     .main-header .section-container-header {

@@ -798,8 +798,9 @@
 
 .section-container-header {
     display: flex;
-    border-radius: 0 0 8px 8px; 
+    border-radius: 8px;
     text-align: center;
+    background-color: #DAA100;
 }
 
 
@@ -813,7 +814,7 @@
 
 .section-header-block:last-child {
     background-color: #DAA100;
-    border-radius: 0 0 8px 0;
+    border-radius: 0 8px 8px 0;
     width: 70%;
     font-weight: 600;
 }
@@ -825,6 +826,8 @@
     font-weight: bold;
     color: #26794D;
     background-color: #fff;
+    border: 2px solid #26794D;
+    border-radius: 8px;
 }
 
 
