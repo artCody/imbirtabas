@@ -203,10 +203,12 @@
     .useful-col-right {
         width: 100%;
         margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .consists-list {
         flex-wrap: wrap;
+        margin-top: 25px;
     }
 
     .consists-list-item {
@@ -549,8 +551,18 @@
         font-size: 40px;
         margin-bottom: 22px;
     }
+}
+
+
+@media screen and (max-width: 480px) {
+    .section-action .header-middle-left img {
+        width: 140px;
+    }
 
 }
+
+
+
 
 
 @media screen and (max-width: 414px) {
@@ -890,7 +902,7 @@
     }
 
     .consists {
-        padding: 16px 0 60px 0;
+        padding: 16px 0 20px 0;
     }
 
     .section-title {
