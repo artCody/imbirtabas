@@ -82,6 +82,11 @@
 @media screen and (max-width: 768px) {
 
 
+    .header-middle-left {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .main-header .section-container-header {
         display: none;
     }
